@@ -16,13 +16,13 @@ parser.add_argument("--iteration", type=int,
                     help="number of total iterations")
 parser.add_argument("--inverse", type=float, 
                     dest="inverse", default=0.05,
-                    help="Inverse consistent")
+                    help="Inverse consistent：suggested range 0.001 to 0.1")
 parser.add_argument("--antifold", type=float, 
                     dest="antifold", default=100000,
-                    help="Anti-fold loss")
+                    help="Anti-fold loss: suggested range 100000 to 1000000")
 parser.add_argument("--smooth", type=float, 
                     dest="smooth", default=0.5,
-                    help="Gradient smooth loss")
+                    help="Gradient smooth loss: suggested range 0.1 to 10")
 parser.add_argument("--checkpoint", type=int,
                     dest="checkpoint", default=4000, 
                     help="frequency of saving models")
