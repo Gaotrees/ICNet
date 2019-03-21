@@ -2,7 +2,7 @@
 
 Pytorch implementation for Inverse-Consistent Deep Networks for Unsupervised Deformable Image Registration.
 
-This package includes 3D deformable image registration tool brain image. The code was written by Jun Zhang, Tencent AI Healthcare.
+This package includes 3D deformable image registration tool for brain images. The code was written by Jun Zhang, Tencent AI Healthcare.
 
 # Applications
 
