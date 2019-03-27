@@ -33,5 +33,5 @@ If you want to train a model using your own dataset, please perform the followin
 ```
 python Train.py --datapath yourdatapath
 ```
-You may need to perform the histogram matching for you dataset since we emply the MSE loss for measuring similarity.
-You may need to adjust the parameters of `--inverse`, `--antifold`, and  `--smooth` for your dataset. 
+You need to perform the histogram matching for you dataset since we emply the `MSE loss` for measuring similarity.
+You may need to adjust the parameters of `--inverse`, `--antifold`, and  `--smooth` for your dataset to get better registration performance. 
