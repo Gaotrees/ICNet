@@ -23,7 +23,7 @@ Install numpy with `pip install numpy`
 cd Code
 ```
 Apply our Pre-trained Model (Note that the image pairs must be linearly aligned before using our code).
-
+It is better to perform the histogram matching according to any one of our provided images. 
 ```
 python Test.py --fixed ../Dataset/image_A.nii.gz --moving ../Dataset/image_B.nii.gz
 ```
@@ -33,4 +33,5 @@ If you want to train a model using your own dataset, please perform the followin
 ```
 python Train.py --datapath yourdatapath
 ```
+You may need to perform the histogram matching for you dataset since we emply the MSE loss for measuring similarity.
 You may need to adjust the parameters of `--inverse`, `--antifold`, and  `--smooth` for your dataset. 
